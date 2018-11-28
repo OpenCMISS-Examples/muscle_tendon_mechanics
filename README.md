@@ -23,16 +23,16 @@ The fortran version of the example can be configured and built with CMake::
   
   cd build
   
-  cmake -DOpenCMISSLibs_DIR=/path/to/opencmisslib/install ../muscle_tendon_mechanics
+  cmake -DOpenCMISSLibs_DIR=/path/to/opencmisslib/install ../muscle_tendon
   
   make
 
-This will create the example executable "muscle_tendon_mechanics" in ./src/fortran/ directory.
+This will create the example executable "muscle_tendon" in ./src/fortran/ directory.
 
 # Running the example
 
-Go to the main folder (muscle_tendon_mechanics) and run the example by
-  ./../src/fortran/muscle_tendon_mechanics
+Go to the main folder (muscle_tendon) and run the example by
+  ./../src/fortran/muscle_tendon
   
 Note that the example needs to be executed from the main folder, since it includes a subfolder with all the nessecary input files, i.e., the corresponding cellml model. Otherwise the path to the cellml-file (in the fortran example file) needs to be adapted.
   
